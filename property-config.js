@@ -20,7 +20,7 @@ const propertyConfig = {
     headerBadge: "🚀 OPORTUNIDAD EN SAUZALITO 🏢",
     tituloHtml: "APARTAMENTO EN SAUZALITO",
     precioVenta: "$778.000.000",
-    valorAdmin: "$600.000",
+    valorAdmin: "$600.000 / mes",
     labelExtra: "✨ Excelente Ubicación"
   },
 
@@ -155,6 +155,7 @@ const propertyConfig = {
     whatsappText: `🏡 *APARTAMENTO EN VENTA - SAUZALITO*
     
 💰 *Precio:* $778.000.000
+💵 *Admin:* $600.000 / mes
 📐 *Área:* 121 m²
 🛏️ *Habitaciones:* 3
 📍 *Ubicación:* Sauzalito, Teusaquillo, Bogotá
