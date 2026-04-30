@@ -5,9 +5,9 @@
 const propertyConfig = {
   // 1. SEO (Para Google y compartir en redes)
   seo: {
-    title: "Apartamento en Venta en La Esperanza Norte",
-    description: "Apartamento de 121m² en La Esperanza Norte, Fontibón, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
-    keywords: "VentaApartamentosBogota, ApartamentoEnLaEsperanzaNorte, InmobiliariaBogota, BienesRaicesColombia, Fontibon, InversionInmobiliaria, VecyBienesRaices",
+    title: "Apartamento en Venta en Sauzalito",
+    description: "Apartamento de 121m² en Sauzalito, Teusaquillo, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
+    keywords: "VentaApartamentosBogota, ApartamentoEnSauzalito, InmobiliariaBogota, BienesRaicesColombia, Teusaquillo, InversionInmobiliaria, VecyBienesRaices",
     propertyId: "SALITRE-FELIPE",
     ogUrl: "https://ap-salitre1-bogota.netlify.app/",
     ogImage: "assets/1.jpeg",
@@ -17,9 +17,9 @@ const propertyConfig = {
   
   // 2. Encabezado Principal
   infoPrincipal: {
-    headerBadge: "🚀 OPORTUNIDAD EN LA ESPERANZA NORTE 🏢",
-    tituloHtml: "APARTAMENTO EN LA ESPERANZA NORTE",
-    precioVenta: "Consultar precio",
+    headerBadge: "🚀 OPORTUNIDAD EN SAUZALITO 🏢",
+    tituloHtml: "APARTAMENTO EN SAUZALITO",
+    precioVenta: "$778.000.000",
     valorAdmin: "$600.000",
     labelExtra: "✨ Excelente Ubicación"
   },
@@ -59,13 +59,13 @@ const propertyConfig = {
 
   // 6. Mapa (Google Maps Embed)
   mapa: {
-    urlEmbed: "https://maps.google.com/maps?q=La+Esperanza+Norte,+Fontib%C3%B3n,+Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed", 
-    titulo: "Ubicación La Esperanza Norte, Fontibón"
+    urlEmbed: "https://maps.google.com/maps?q=Sauzalito,+Teusaquillo,+Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed", 
+    titulo: "Ubicación Sauzalito, Teusaquillo"
   },
 
   // 7. Descripción Final / Análisis de Inversión
   descripcionFinal: {
-    titulo: "💖 Tu Próximo Hogar en La Esperanza Norte",
+    titulo: "💖 Tu Próximo Hogar en Sauzalito",
     texto: `
     <div class="roi-item">
       <p>Vive en uno de los sectores más estratégicos de Bogotá. Este excelente apartamento de 121 m² (incluyendo parqueadero) en primer piso, te ofrece comodidad y múltiples espacios.</p>
@@ -152,17 +152,17 @@ const propertyConfig = {
 
   // 9. Botón Compartir (Texto de WhatsApp)
   share: {
-    whatsappText: `🏡 *APARTAMENTO EN VENTA - LA ESPERANZA NORTE*
+    whatsappText: `🏡 *APARTAMENTO EN VENTA - SAUZALITO*
     
-💰 *Precio:* Consultar
+💰 *Precio:* $778.000.000
 📐 *Área:* 121 m²
 🛏️ *Habitaciones:* 3
-📍 *Ubicación:* La Esperanza Norte, Fontibón, Bogotá
+📍 *Ubicación:* Sauzalito, Teusaquillo, Bogotá
 
 🔗 *Ver Fotos y Detalles:*
 https://ap-salitre1-bogota.netlify.app/
 
-#InmobiliariaBogota #BienesRaicesBogota #Fontibon #LaEsperanzaNorte #ApartamentoEnVenta #VecyBienesRaices`
+#InmobiliariaBogota #BienesRaicesBogota #Teusaquillo #Sauzalito #ApartamentoEnVenta #VecyBienesRaices`
   }
 };
 
