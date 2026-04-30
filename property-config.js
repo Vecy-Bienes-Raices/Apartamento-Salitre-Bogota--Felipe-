@@ -21,7 +21,7 @@ const propertyConfig = {
     tituloHtml: "APARTAMENTO EN SAUZALITO",
     precioVenta: "$778.000.000",
     valorAdmin: "$600.000 / mes",
-    labelExtra: "✨ Excelente Ubicación"
+    labelExtra: "💵 Administración"
   },
 
   // 3. Rejilla de Detalles (Iconos y Datos Clave)
