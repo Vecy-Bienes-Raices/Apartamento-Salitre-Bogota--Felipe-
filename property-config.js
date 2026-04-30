@@ -8,7 +8,7 @@ const propertyConfig = {
     title: "Apartamento en Venta en Sauzalito",
     description: "Apartamento de 121m² en Sauzalito, Teusaquillo, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
     keywords: "VentaApartamentosBogota, ApartamentoEnSauzalito, InmobiliariaBogota, BienesRaicesColombia, Teusaquillo, InversionInmobiliaria, VecyBienesRaices",
-    propertyId: "SALITRE-FELIPE",
+    propertyId: "AP-SAUZALITO1",
     ogUrl: "https://ap-salitre1-bogota.netlify.app/",
     ogImage: "assets/1.jpeg",
     author: "Vecy Bienes Raíces",
