@@ -5,9 +5,9 @@
 const propertyConfig = {
   // 1. SEO (Para Google y compartir en redes)
   seo: {
-    title: "Apartamento en Venta en Salitre",
-    description: "Apartamento de 121m² en Salitre, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
-    keywords: "VentaApartamentosBogota, ApartamentoEnSalitre, InmobiliariaBogota, BienesRaicesColombia, Salitre, InversionInmobiliaria, VecyBienesRaices",
+    title: "Apartamento en Venta en La Esperanza Norte",
+    description: "Apartamento de 121m² en La Esperanza Norte, Fontibón, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
+    keywords: "VentaApartamentosBogota, ApartamentoEnLaEsperanzaNorte, InmobiliariaBogota, BienesRaicesColombia, Fontibon, InversionInmobiliaria, VecyBienesRaices",
     propertyId: "SALITRE-FELIPE",
     ogUrl: "https://ap-salitre1-bogota.netlify.app/",
     ogImage: "assets/1.jpeg",
@@ -17,8 +17,8 @@ const propertyConfig = {
   
   // 2. Encabezado Principal
   infoPrincipal: {
-    headerBadge: "🚀 OPORTUNIDAD EN SALITRE 🏢",
-    tituloHtml: "APARTAMENTO EN SALITRE",
+    headerBadge: "🚀 OPORTUNIDAD EN LA ESPERANZA NORTE 🏢",
+    tituloHtml: "APARTAMENTO EN LA ESPERANZA NORTE",
     precioVenta: "Consultar precio",
     valorAdmin: "$600.000",
     labelExtra: "✨ Excelente Ubicación"
@@ -59,13 +59,13 @@ const propertyConfig = {
 
   // 6. Mapa (Google Maps Embed)
   mapa: {
-    urlEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15906.917637841961!2d-74.1166642128418!3d4.642192199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b8dd93108ab%3A0xc6829c36829d6632!2sCiudad%20Salitre%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1714524458535!5m2!1ses-419!2sco", 
-    titulo: "Ubicación Salitre"
+    urlEmbed: "https://maps.google.com/maps?q=La+Esperanza+Norte,+Fontib%C3%B3n,+Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed", 
+    titulo: "Ubicación La Esperanza Norte, Fontibón"
   },
 
   // 7. Descripción Final / Análisis de Inversión
   descripcionFinal: {
-    titulo: "💖 Tu Próximo Hogar en Salitre",
+    titulo: "💖 Tu Próximo Hogar en La Esperanza Norte",
     texto: `
     <div class="roi-item">
       <p>Vive en uno de los sectores más estratégicos de Bogotá. Este excelente apartamento de 121 m² (incluyendo parqueadero) en primer piso, te ofrece comodidad y múltiples espacios.</p>
@@ -152,17 +152,17 @@ const propertyConfig = {
 
   // 9. Botón Compartir (Texto de WhatsApp)
   share: {
-    whatsappText: `🏡 *APARTAMENTO EN VENTA - SALITRE*
+    whatsappText: `🏡 *APARTAMENTO EN VENTA - LA ESPERANZA NORTE*
     
 💰 *Precio:* Consultar
 📐 *Área:* 121 m²
 🛏️ *Habitaciones:* 3
-📍 *Ubicación:* Salitre, Bogotá
+📍 *Ubicación:* La Esperanza Norte, Fontibón, Bogotá
 
 🔗 *Ver Fotos y Detalles:*
 https://ap-salitre1-bogota.netlify.app/
 
-#InmobiliariaBogota #BienesRaicesBogota #Salitre #ApartamentoEnVenta #VecyBienesRaices`
+#InmobiliariaBogota #BienesRaicesBogota #Fontibon #LaEsperanzaNorte #ApartamentoEnVenta #VecyBienesRaices`
   }
 };
 
