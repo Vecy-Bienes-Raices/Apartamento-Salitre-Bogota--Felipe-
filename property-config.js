@@ -9,7 +9,7 @@ const propertyConfig = {
     description: "Apartamento de 121m² en Salitre, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
     keywords: "VentaApartamentosBogota, ApartamentoEnSalitre, InmobiliariaBogota, BienesRaicesColombia, Salitre, InversionInmobiliaria, VecyBienesRaices",
     propertyId: "SALITRE-FELIPE",
-    ogUrl: "https://vecy-bienes-raices.github.io/Apartamento-Salitre-Bogota--Felipe-/",
+    ogUrl: "https://ap-salitre1-bogota.netlify.app/",
     ogImage: "assets/1.jpeg",
     author: "Vecy Bienes Raíces",
     copyright: "2026"
@@ -160,7 +160,7 @@ const propertyConfig = {
 📍 *Ubicación:* Salitre, Bogotá
 
 🔗 *Ver Fotos y Detalles:*
-https://vecy-bienes-raices.github.io/Apartamento-Salitre-Bogota--Felipe-/
+https://ap-salitre1-bogota.netlify.app/
 
 #InmobiliariaBogota #BienesRaicesBogota #Salitre #ApartamentoEnVenta #VecyBienesRaices`
   }
