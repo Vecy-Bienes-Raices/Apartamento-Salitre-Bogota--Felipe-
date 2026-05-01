@@ -201,7 +201,16 @@
             allImages = propertyConfig.multimedia.imagesList;
         }
         
-        const galleryImages = allImages.slice(1, 9);
+        const galleryImages = [
+            'assets/5.jpeg',
+            'assets/8.jpeg',
+            'assets/11.jpeg',
+            'assets/12.jpeg',
+            'assets/22.jpeg',
+            'assets/24.jpeg',
+            'assets/25.jpeg',
+            'assets/27.jpeg'
+        ];
         
         galleryImages.slice(0, 4).forEach(src => {
             const img = document.createElement('img');

@@ -50,12 +50,14 @@ const propertyConfig = {
   caracteristicasExternas: [
     { name: "2 Zonas BBQ", emoji: "🍖" },
     { name: "Cancha Múltiple", emoji: "🏀" },
-    { name: "Zonas Verdes", emoji: "🌳" },
+    { name: "Zonas Verdes y Cascada", emoji: "🌳" },
     { name: "2 Salones Comunales", emoji: "🎉" },
     { name: "Gimnasio", emoji: "🏋️‍♂️" },
-    { name: "2 Porterías", emoji: "🛡️" }
+    { name: "Parq. Visitantes Independiente (~20)", emoji: "🚗" },
+    { name: "Accesibilidad (Rampas)", emoji: "♿" },
+    { name: "Vigilancia 24/7", emoji: "🛡️" }
   ],
-  destacadoUbicacion: "Excelente conjunto con completas zonas comunes para toda la familia, además de amplias zonas verdes y <strong>doble portería</strong>.",
+  destacadoUbicacion: "Ubicado a pasos de la Avenida Rojas y la Calle 26 (El Dorado), ofreciendo un acceso vehicular y de transporte inmejorable. El conjunto está adaptado para movilidad reducida (rampas), cuenta con parqueadero de visitantes independiente, vigilancia 24/7, gimnasio, salones comunales y completas zonas comunes rodeadas de extraordinarias zonas verdes con cascada.",
 
   // 6. Mapa (Google Maps Embed)
   mapa: {
