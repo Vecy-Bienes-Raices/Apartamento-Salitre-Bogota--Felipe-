@@ -5,9 +5,9 @@
 const propertyConfig = {
   // 1. SEO (Para Google y compartir en redes)
   seo: {
-    title: "Apartamento en Venta en La Esperanza Norte",
-    description: "Apartamento de 121m² en La Esperanza Norte, Fontibón, 3 habitaciones, 3 baños, 2 parqueaderos, conjunto cerrado.",
-    keywords: "VentaApartamentosBogota, ApartamentoEnLaEsperanzaNorte, InmobiliariaBogota, BienesRaicesColombia, Fontibon, InversionInmobiliaria, VecyBienesRaices",
+    title: "Apartamento en Venta en Salitre, Bogotá",
+    description: "Oportunidad de inversión: Apartamento de 121m² en Salitre, Bogotá. 3 habitaciones, 3 baños, chimenea, 2 parqueaderos. Alta seguridad, accesibilidad, zonas verdes y cascada.",
+    keywords: "VentaApartamentosBogota, ApartamentoEnSalitre, SalitreBogota, InmueblesSalitre, BienesRaicesColombia, InversionInmobiliariaBogota, VecyBienesRaices, ApartamentosDeLujoBogota, AccesibilidadSillasDeRuedas, AltaSeguridad, ApartamentoFamiliarBogota",
     propertyId: "ID-BOG-EN01",
     ogUrl: "https://ap-salitre1-bogota.netlify.app/",
     ogImage: "assets/1.jpeg",
@@ -17,8 +17,8 @@ const propertyConfig = {
   
   // 2. Encabezado Principal
   infoPrincipal: {
-    headerBadge: "🚀 OPORTUNIDAD EN LA ESPERANZA NORTE 🏢",
-    tituloHtml: "APARTAMENTO EN LA ESPERANZA NORTE",
+    headerBadge: "🚀 OPORTUNIDAD EN SALITRE 🏢",
+    tituloHtml: "APARTAMENTO EN SALITRE BOGOTÁ",
     precioVenta: "$778.000.000",
     valorAdmin: "$600.000 / mes",
     labelExtra: "💵 Administración"
@@ -44,7 +44,7 @@ const propertyConfig = {
     { name: "Estudio", emoji: "📚" },
     { name: "Chimenea a Gas en la Sala", emoji: "🔥" }
   ],
-  destacadoInterno: "Un apartamento con excelentes espacios, estudio y una acogedora <strong>chimenea a gas</strong> en la sala.",
+  destacadoInterno: "Un apartamento con excelentes espacios, estudio ideal para teletrabajo y una acogedora <strong>chimenea a gas</strong> en la sala. Incluye parqueadero doble lineal.",
 
   // 5. Características Externas (Lista derecha)
   caracteristicasExternas: [
@@ -57,27 +57,27 @@ const propertyConfig = {
     { name: "Accesibilidad (Rampas)", emoji: "♿" },
     { name: "Vigilancia 24/7", emoji: "🛡️" }
   ],
-  destacadoUbicacion: "Ubicado a pasos de la Avenida Rojas y la Calle 26 (El Dorado), ofreciendo un acceso vehicular y de transporte inmejorable. El conjunto está adaptado para movilidad reducida (rampas), cuenta con parqueadero de visitantes independiente, vigilancia 24/7, gimnasio, salones comunales y completas zonas comunes rodeadas de extraordinarias zonas verdes con cascada.",
+  destacadoUbicacion: "Ubicado a pasos de la Av. Rojas y Calle 26, ofreciendo acceso inmejorable. El conjunto está pensado para la tranquilidad familiar: <strong>vigilancia 24/7</strong>, <strong>excelentes rampas de accesibilidad</strong> (ideales para movilidad reducida o adultos mayores) y amplia facilidad de parqueadero de visitantes. Disfruta de gimnasio, zonas BBQ, cancha múltiple y extraordinarias zonas verdes con cascada.",
 
   // 6. Mapa (Google Maps Embed)
   mapa: {
     urlEmbed: "https://maps.google.com/maps?q=Sauzalito,+Teusaquillo,+Bogot%C3%A1&t=&z=15&ie=UTF8&iwloc=&output=embed", 
-    titulo: "Ubicación La Esperanza Norte, Fontibón, Bogotá"
+    titulo: "Ubicación Sector Salitre, Bogotá"
   },
 
   // 7. Descripción Final / Análisis de Inversión
   descripcionFinal: {
-    titulo: "💖 Tu Próximo Hogar en La Esperanza Norte",
+    titulo: "💖 Tu Próximo Hogar en Salitre, Bogotá",
     texto: `
     <div class="roi-item">
-      <p>Vive en uno de los sectores más estratégicos de Bogotá. Este excelente apartamento de 121 m² (incluyendo parqueadero) en primer piso, te ofrece comodidad y múltiples espacios.</p>
+      <p>Vive en uno de los sectores más estratégicos y de mayor valorización en Bogotá: El Salitre. Este espectacular apartamento de 121 m², te ofrece comodidad, elegancia y múltiples espacios ideales para tu familia.</p>
       <ul class="roi-list">
-        <li>✨ <strong>Zonas Comunes:</strong> Disfruta de 2 BBQ, cancha múltiple, amplias zonas verdes, 2 salones comunales y gimnasio.</li>
-        <li>✨ <strong>Comodidad:</strong> Cuenta con estudio, chimenea a gas y parqueadero con capacidad para camioneta grande y carro pequeño.</li>
-        <li>✨ <strong>Seguridad:</strong> El conjunto cuenta con 2 porterías.</li>
+        <li>✨ <strong>Distribución y Comodidad:</strong> 3 habitaciones, 3 baños, estudio para teletrabajo, chimenea a gas en la sala y parqueadero doble lineal (camioneta y carro pequeño).</li>
+        <li>✨ <strong>Entorno y Naturaleza:</strong> Amplias y extraordinarias zonas verdes con cascada, 2 zonas BBQ, cancha múltiple, 2 salones comunales y gimnasio.</li>
+        <li>✨ <strong>Seguridad y Accesibilidad:</strong> Vigilancia 24/7 permanente, excelentes rampas de accesibilidad para movilidad reducida o adultos mayores, y gran facilidad de parqueadero para visitantes (~20 espacios).</li>
       </ul>
       <div class="projection">
-        ¡Excelente oportunidad en Estrato 4!
+        ¡Una oportunidad única de inversión por su ubicación inmejorable (Av. Rojas y Calle 26)!
       </div>
       <br>
       <div style="text-align: center;">
@@ -131,18 +131,20 @@ const propertyConfig = {
 
   // 9. Botón Compartir (Texto de WhatsApp)
   share: {
-    whatsappText: `🏡 *APARTAMENTO EN VENTA - LA ESPERANZA NORTE*
+    whatsappText: `🏡 *APARTAMENTO EN VENTA - SALITRE BOGOTÁ*
+✨ Alta seguridad, accesibilidad, zonas verdes con cascada y excelente parqueo para visitantes.
     
 💰 *Precio:* $778.000.000
 💵 *Admin:* $600.000 / mes
-📐 *Área:* 121 m²
-🛏️ *Habitaciones:* 3
-📍 *Ubicación:* La Esperanza Norte, Fontibón, Bogotá
+📐 *Área:* 121 m² (Incluye parqueadero doble lineal)
+🛏️ *Habitaciones:* 3 + Estudio
+🔥 *Extras:* Chimenea a gas
+📍 *Ubicación:* Sector Salitre, Bogotá (Cerca Av. Rojas y Cll 26)
 
 🔗 *Ver Fotos y Detalles:*
 https://ap-salitre1-bogota.netlify.app/
 
-#InmobiliariaBogota #BienesRaicesBogota #Fontibon #LaEsperanzaNorte #ApartamentoEnVenta #VecyBienesRaices`
+#InmobiliariaBogota #BienesRaicesBogota #SalitreBogota #ApartamentoEnSalitre #InversionInmobiliaria #VecyBienesRaices`
   }
 };
 

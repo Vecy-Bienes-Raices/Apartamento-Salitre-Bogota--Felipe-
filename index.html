@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartamento en Venta en La Esperanza Norte, Bogotá</title>
+    <title>Apartamento en Venta en Salitre, Bogotá</title>
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23D4AF37' d='M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5z'/%3E%3C/svg%3E"
     />
-    <!-- Link preload eliminado para evitar advertencias de consola -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="assets/1.jpeg" as="image" fetchpriority="high" />
+    <link rel="preload" href="property-config.js" as="script" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Capa de Autoridad Algorítmica (Invisible) -->
@@ -18,8 +19,8 @@
     {
       "@context": "https://schema.org",
       "@type": "RealEstateListing",
-      "name": "Apartamento en La Esperanza Norte",
-      "description": "Excelente apartamento de 121m², 3 habitaciones, 3 baños, estudio, chimenea, conjunto cerrado con gimnasio, bbq, canchas y mucho más. ¡Gran oportunidad!",
+      "name": "Apartamento en Salitre, Bogotá",
+      "description": "Oportunidad de inversión: Apartamento de 121m² en Salitre, Bogotá. 3 habitaciones, 3 baños, chimenea, 2 parqueaderos. Alta seguridad, accesibilidad, zonas verdes y cascada.",
       "brand": {
         "@type": "Brand",
         "name": "Vecy Bienes Raíces"
@@ -31,14 +32,14 @@
       }
     }
     </script>
-    <meta name="description" content="Excelente apartamento de 121m², 3 habitaciones, 3 baños, estudio, chimenea, conjunto cerrado con gimnasio, bbq, canchas y mucho más. ¡Gran oportunidad!" />
-    <meta property="og:title" content="Apartamento en Venta en La Esperanza Norte, Bogotá" />
-    <meta property="og:description" content="Excelente apartamento de 121m², 3 habitaciones, 3 baños, estudio, chimenea, conjunto cerrado con gimnasio, bbq, canchas y mucho más. ¡Gran oportunidad!" />
-    <meta property="og:image" content="https://ap-salitre1-bogota.netlify.app/assets/portada_og.jpg" />
-    <meta property="og:image:secure_url" content="https://ap-salitre1-bogota.netlify.app/assets/portada_og.jpg" />
+    <meta name="description" content="Oportunidad de inversión: Apartamento de 121m² en Salitre, Bogotá. 3 habitaciones, 3 baños, chimenea, 2 parqueaderos. Alta seguridad, accesibilidad, zonas verdes y cascada." />
+    <meta property="og:title" content="Apartamento en Venta en Salitre, Bogotá" />
+    <meta property="og:description" content="Oportunidad de inversión: Apartamento de 121m² en Salitre, Bogotá. 3 habitaciones, 3 baños, chimenea, 2 parqueaderos. Alta seguridad, accesibilidad, zonas verdes y cascada." />
+    <meta property="og:image" content="https://ap-salitre1-bogota.netlify.app/assets/1.jpeg" />
+    <meta property="og:image:secure_url" content="https://ap-salitre1-bogota.netlify.app/assets/1.jpeg" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="800" />
-    <meta property="og:image:height" content="600" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://ap-salitre1-bogota.netlify.app/" />
     <meta property="og:type" content="website" />
     <meta name="author" content="Vecy Bienes Raíces" />
@@ -134,6 +135,8 @@
         transform: translateZ(0);
         backface-visibility: hidden;
         will-change: transform;
+        content-visibility: auto; /* OPTIMIZACIÓN RENDIMIENTO */
+        contain-intrinsic-size: auto 200px;
       }
       .glass-card::before {
         content: "";
@@ -982,8 +985,8 @@
     <div class="glass-card map-container">
       <div style="position: relative; width: 100%; height: 350px;">
         <div style="position: absolute; top: 10px; left: 10px; background: white; padding: 11px 14px; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; font-family: Roboto, Arial, sans-serif; z-index: 10; min-width: 280px; pointer-events: none;">
-          <div style="font-size: 14px; font-weight: 500; color: #1a1a1a; margin-bottom: 2px;">La Esperanza Norte</div>
-          <div style="font-size: 12px; color: #5c5c5c; line-height: 1.4;">La Esperanza Norte, Fontibón, Bogotá, Bogota, Colombia<br><span style="color: #5c5c5c; margin-top: 4px; display: inline-block;">No hay opiniones</span></div>
+          <div style="font-size: 14px; font-weight: 500; color: #1a1a1a; margin-bottom: 2px;">Sector Salitre</div>
+          <div style="font-size: 12px; color: #5c5c5c; line-height: 1.4;">Salitre, Bogotá, Colombia<br><span style="color: #5c5c5c; margin-top: 4px; display: inline-block;">Excelente Ubicación</span></div>
           <a href="https://maps.google.com/maps?q=Sauzalito,+Teusaquillo,+Bogot%C3%A1" target="_blank" style="position: absolute; top: 10px; right: 10px; font-size: 16px; color: #1a73e8; text-decoration: none; pointer-events: auto; padding: 5px;">↗</a>
         </div>
         <iframe
@@ -1024,7 +1027,7 @@
     </div>
 
     <!-- Cargar Configuración -->
-    <script src="property-config.js"></script>
+    <script src="property-config.js?v=2" defer></script>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
